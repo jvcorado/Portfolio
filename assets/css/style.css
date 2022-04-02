@@ -15,9 +15,10 @@
 @media (max-width:500px) {
     
     .certificados{
-        background-color: aqua;
+        background-color: aqua !important;
     }
     #carouselExampleCaptions{
-        width: 100%;
+     
+        width: 100% !important;
     }
 }
