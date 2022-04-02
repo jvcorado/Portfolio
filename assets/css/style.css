@@ -24,4 +24,10 @@
     .sobre .row{
         text-align: center !important;
     }
+    .skills .btn{
+        width: 100% !important;
+    }
+    .curriculo .btn{
+        width: 100% !important;
+    }
 }
