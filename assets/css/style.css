@@ -14,6 +14,18 @@
 
 @media (max-width:500px) {
     
+    .navbar{
+        padding: 5px !important;
+    }
+    .nav-link{
+        margin: 0px!important;
+    }
+    .nav-item-esp{
+        margin: 5px!important;
+        display: flex !important;
+       
+    }
+   
     .certificados{
         padding: 10px !important;
     }
