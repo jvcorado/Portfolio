@@ -11,3 +11,13 @@
     font-size: 1.6em;
     font-weight: 900;
 }
+
+@media (max-width:500px) {
+    
+    .certificados{
+        background-color: aqua;
+    }
+    #carouselExampleCaptions{
+        width: 100%;
+    }
+}
