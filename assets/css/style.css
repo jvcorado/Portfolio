@@ -21,4 +21,7 @@
      
         width: 100% !important;
     }
+    .sobre .row{
+        text-align: center !important;
+    }
 }
