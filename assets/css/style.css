@@ -24,6 +24,9 @@
     .sobre .row{
         text-align: center !important;
     }
+    .sobre #img-icon{
+        width: 50% !important;
+    }
     .skills .btn{
         width: 100% !important;
     }
