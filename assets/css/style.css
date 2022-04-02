@@ -30,8 +30,11 @@
     .skills .btn{
         width: 100% !important;
     }
-    .curriculo .btn{
-        
+    .projetos{
+        padding: 20px !important;
+        margin: 0;
+    }
+    .curriculo .btn{   
         width: 100% !important;
     }
     .contato{
