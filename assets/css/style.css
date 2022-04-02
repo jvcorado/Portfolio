@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-family: 'Comforter', cursive;
+    font-size: 1.6em;
+    font-weight: 900;
+}
