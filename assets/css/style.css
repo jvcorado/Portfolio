@@ -31,6 +31,18 @@
         width: 100% !important;
     }
     .curriculo .btn{
+        
+        width: 100% !important;
+    }
+    .contato{
+        padding: 20px !important;
+        margin: 0;
+    }
+    .contato .card{
+       
+        width: 100% !important;
+    }
+    .contato .bt{
         width: 100% !important;
     }
 }
