@@ -15,7 +15,7 @@
 @media (max-width:500px) {
     
     .certificados{
-        background-color: aqua !important;
+        padding: 10px !important;
     }
     #carouselExampleCaptions{
      
