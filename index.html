@@ -22,13 +22,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link" href="#sobre">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projetos</a>
+                            <a class="nav-link" href="#projetos">Projetos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Certificados</a>
@@ -44,12 +44,13 @@
             </div>
         </nav>
     </header>
-    <section class="apresentacao bg-light">
-        <div class="container-fluid">
+    <section class="sobre bg-light">
+        <div id="sobre" class="container-fluid">
             <div class="row p-5 justify-content-center align-items-center">
                 <div class="col-sm">
                     <h1>Sobre o site.</h1>
                     <p class="">Desenvolvi este site, para hospedar meus Certificados e Projetos e poder acessá-lo de qualquer lugar, e demonstrar minha capacitação como Desenvolvedor.</p>
+                    
                     <button class="btn btn-dark mb-5">ENTRAR</button>
                 </div>
                 <div class="col-sm">
@@ -76,36 +77,36 @@
             </div>
         </div>
     </section>
-    <section class="conteudo bg-light p-5">
-        <div class="container-fluid">
+    <section id="skills" class="conteudo bg-light p-5">
+        <div  class="container-fluid">
             <h1 class="text-dark">Soft Skills | Hard Skills</h1>
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Saiba mais
-              </button>
+            </button>
               
               <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Soft Skills</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body tex-dark">
-                      <ol>
-                          <li>Princípios éticos;</li>
-                          <li>Empatia;</li>
-                          <li>Flexibilidade;</li>
-                          <li>Comunicação;</li>
-                          <li>Persistência;</li>
-                          <li>Motivação;</li>
-                      </ol>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Soft Skills | Hard Skills</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
+                <div class="modal-body tex-dark">
+                    <ol>
+                        <li>Princípios éticos;</li>
+                        <li>Empatia;</li>
+                        <li>Flexibilidade;</li>
+                        <li>Comunicação;</li>
+                        <li>Persistência;</li>
+                        <li>Motivação;</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+                </div>
+            </div>
             <div class="row p-5 text-white">
                 <div class="col-sm mb-4">
                     <div class="card bg-dark">
@@ -172,7 +173,7 @@
             </div>
         </div>
     </section>
-    <section class="projetos bg-dark p-5">
+    <section  id="projetos" class="projetos bg-dark p-5">
         <div class="container-fluid">
             <h1 class="text-white">Projetos</h1>
             <div class="row pt-4">
@@ -237,12 +238,12 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Redes Sociais</h5>
-                          <p class="card-text">Pagína Web Com todos perfis sociais.</p>
-                          <a href="https://github.com/jvcorado/web-mobile" class="btn btn-dark w-100 mb-2">Ver no GitHub</a>
-                          <a href="https://jvcorado.github.io/web-mobile/" class="btn btn-dark w-100">Acessar</a>
+                            <h5 class="card-title">Analisador de Números</h5>
+                            <p class="card-text">Desafio Curso em Vídeo JS</p>
+                            <a href="https://github.com/jvcorado/Analisador-de-numeros" class="btn btn-dark w-100 mb-2">Ver no GitHub</a>
+                            <a href="https://analisadornumber.netlify.app" class="btn btn-dark w-100">Acessar</a>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
             
