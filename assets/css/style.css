@@ -40,7 +40,11 @@
         width: 50% !important;
     }
     .skills .btn{
+        
         width: 100% !important;
+    }
+    .skills{
+       padding: 20px !important;
     }
     .projetos{
         padding: 20px !important;
