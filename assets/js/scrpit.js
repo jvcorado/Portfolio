@@ -120,9 +120,7 @@
         
         document.querySelector(".curriculo .btn").classList.remove('btn-dark')
         document.querySelector(".curriculo .btn").classList.add('btn-light') 
-        
-        document.querySelector(".contato").classList.remove('bg-dark')
-        document.querySelector(".contato").classList.add('bg-light') 
+         
       
     } 
     function white(){
@@ -208,11 +206,11 @@
 
         cardAllProjeto.forEach(Element =>{
             
-            Element.classList.remove('bg-light')
-            Element.classList.add('bg-dark')
+            Element.classList.remove('bg-dark')
+            Element.classList.add('bg-light')
 
-            Element.classList.remove('text-dark')
-            Element.classList.add('text-white')
+            Element.classList.remove('text-white')
+            Element.classList.add('text-dark')
 
        
     
@@ -220,8 +218,8 @@
 
         cardAllProjetoBtn.forEach(Element =>{
             
-            Element.classList.remove('btn-dark')
-            Element.classList.add('btn-light')
+            Element.classList.remove('btn-light')
+            Element.classList.add('btn-dark')
     
         })
 
