@@ -179,8 +179,8 @@
         document.querySelector(".skills .modal-footer").classList.remove('text-white')
         document.querySelector(".skills .modal-footer").classList.add('text-dark')
 
-        document.querySelector(".skills .row").classList.remove('text-white')
-        document.querySelector(".skills .row").classList.add('text-dark')
+        document.querySelector(".skills .row").classList.remove('text-dark')
+        document.querySelector(".skills .row").classList.add('text-white')
 
 
         const cardAll = document.querySelectorAll(".skills .card");
