@@ -16,14 +16,14 @@
         document.querySelector(".cabecalho").classList.remove('border-dark')
         document.querySelector(".cabecalho").classList.add('border-white')
 
-        document.querySelector(".sobre").classList.remove('bg-dark')
-        document.querySelector(".sobre").classList.add('bg-light')
+        document.querySelector(".sobre").classList.remove('bg-light')
+        document.querySelector(".sobre").classList.add('bg-dark')
 
-        document.querySelector(".sobre").classList.remove('text-white')
-        document.querySelector(".sobre").classList.add('text-dark')
+        document.querySelector(".sobre").classList.remove('text-dark')
+        document.querySelector(".sobre").classList.add('text-white')
 
-        document.querySelector(".sobre a").classList.remove('btn-light')
-        document.querySelector(".sobre a").classList.add('btn-dark')
+        document.querySelector(".sobre a").classList.remove('btn-dark')
+        document.querySelector(".sobre a").classList.add('btn-light')
 
         document.querySelector(".dados").classList.remove('bg-light')
         document.querySelector(".dados").classList.add('bg-dark')
@@ -31,14 +31,14 @@
         document.querySelector(".dados").classList.remove('text-dark')
         document.querySelector(".dados").classList.add('text-white')
 
-        document.querySelector(".skills").classList.remove('bg-dark')
-        document.querySelector(".skills").classList.add('bg-light')
+        document.querySelector(".skills").classList.add('bg-dark')
+        document.querySelector(".skills").classList.remove('bg-light')
 
-        document.querySelector(".skills h1").classList.remove('text-white')
-        document.querySelector(".skills h1").classList.add('text-dark')
+        document.querySelector(".skills h1").classList.remove('text-dark')
+        document.querySelector(".skills h1").classList.add('text-white')
 
-        document.querySelector(".skills .btn").classList.remove('btn-light')
-        document.querySelector(".skills .btn").classList.add('btn-dark')
+        document.querySelector(".skills .btn").classList.remove('btn-dark')
+        document.querySelector(".skills .btn").classList.add('btn-light')
 
         document.querySelector(".skills .modal-header").classList.remove('bg-light')
         document.querySelector(".skills .modal-header").classList.add('bg-dark')
@@ -105,11 +105,11 @@
     
         })
 
-        document.querySelector(".certificados").classList.remove('bg-dark')
-        document.querySelector(".certificados").classList.add('bg-light')
+        document.querySelector(".certificados").classList.remove('bg-light')
+        document.querySelector(".certificados").classList.add('bg-dark')
 
-        document.querySelector(".certificados h1").classList.remove('text-white')
-        document.querySelector(".certificados h1").classList.add('text-dark')
+        document.querySelector(".certificados h1").classList.remove('text-dark')
+        document.querySelector(".certificados h1").classList.add('text-white')
 
         document.querySelector(".curriculo").classList.remove('bg-light')
         document.querySelector(".curriculo").classList.add('bg-dark')  
@@ -120,6 +120,9 @@
         
         document.querySelector(".curriculo .btn").classList.remove('btn-dark')
         document.querySelector(".curriculo .btn").classList.add('btn-light') 
+
+        document.querySelector(".contato").classList.add('bg-dark') 
+        document.querySelector(".contato").classList.remove('bg-light')
          
       
     } 
@@ -136,14 +139,14 @@
         document.querySelector(".cabecalho").classList.remove('border-white')
         document.querySelector(".cabecalho").classList.add('border-dark')
 
-        document.querySelector(".sobre").classList.remove('bg-light')
-        document.querySelector(".sobre").classList.add('bg-dark')
+        document.querySelector(".sobre").classList.remove('bg-dark')
+        document.querySelector(".sobre").classList.add('bg-light')
 
-        document.querySelector(".sobre").classList.remove('text-dark')
-        document.querySelector(".sobre").classList.add('text-white')
+        document.querySelector(".sobre").classList.remove('text-white')
+        document.querySelector(".sobre").classList.add('text-dark')
 
-        document.querySelector(".sobre a").classList.remove('btn-dark')
-        document.querySelector(".sobre a").classList.add('btn-light')
+        document.querySelector(".sobre a").classList.remove('btn-light')
+        document.querySelector(".sobre a").classList.add('btn-dark')
 
         document.querySelector(".dados").classList.remove('bg-dark')
         document.querySelector(".dados").classList.add('bg-light')
@@ -151,14 +154,14 @@
         document.querySelector(".dados").classList.remove('text-white')
         document.querySelector(".dados").classList.add('text-dark')
 
-        document.querySelector(".skills").classList.remove('bg-light')
-        document.querySelector(".skills").classList.add('bg-dark')
+        document.querySelector(".skills").classList.remove('bg-dark')
+        document.querySelector(".skills").classList.add('bg-light')
 
-        document.querySelector(".skills h1").classList.remove('text-dark')
-        document.querySelector(".skills h1").classList.add('text-white')
+        document.querySelector(".skills h1").classList.remove('text-white')
+        document.querySelector(".skills h1").classList.add('text-dark')
 
-        document.querySelector(".skills .btn").classList.add('btn-light')
-        document.querySelector(".skills .btn").classList.remove('btn-dark')
+        document.querySelector(".skills .btn").classList.add('btn-dark')
+        document.querySelector(".skills .btn").classList.remove('btn-light')
 
         document.querySelector(".skills .modal-header").classList.remove('bg-dark')
         document.querySelector(".skills .modal-header").classList.add('bg-light')
@@ -224,11 +227,11 @@
         })
 
 
-        document.querySelector(".certificados").classList.remove('bg-light')
-        document.querySelector(".certificados").classList.add('bg-dark')  
+        document.querySelector(".certificados").classList.remove('bg-dark')
+        document.querySelector(".certificados").classList.add('bg-light')  
 
-        document.querySelector(".certificados h1").classList.remove('text-dark')
-        document.querySelector(".certificados h1").classList.add('text-white')
+        document.querySelector(".certificados h1").classList.remove('text-white')
+        document.querySelector(".certificados h1").classList.add('text-dark')
 
         document.querySelector(".curriculo").classList.remove('bg-dark')
         document.querySelector(".curriculo").classList.add('bg-light')  
@@ -241,7 +244,7 @@
         document.querySelector(".curriculo .btn").classList.add('btn-dark')  
 
 
-        document.querySelector(".contato").classList.remove('bg-light')
-        document.querySelector(".contato").classList.add('bg-dark') 
+        document.querySelector(".contato").classList.remove('bg-dark')
+        document.querySelector(".contato").classList.add('bg-light') 
     } 
      
